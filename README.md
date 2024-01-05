@@ -1,4 +1,4 @@
-# Python-Data-Pipeline-Template
+# python-data-pipeline-example
 
 Example Python data pipeline to experiment with python packages for operationalizing data pipelines.
 
