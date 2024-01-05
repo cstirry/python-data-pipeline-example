@@ -18,15 +18,11 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Install dependencies and run tests
+      - name: Install dependencies and Run tests
         run: |
           python -m venv venv
           source venv/bin/activate
           pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Print installed packages
-        run: pip freeze
-
-      - name: Run tests
-        run: python -m unittest discover -s tests
+          pip freeze
+          python -m unittest discover -s tests
